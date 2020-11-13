@@ -1,7 +1,7 @@
 import './Style.css'
 
 function Section (props) {
-return <div class = "dot">{props.colorName}</div>
+return <div class = "dot" style={{'background-color': props.colorName}}>{props.colorName}</div>
 }
 
 export default Section
